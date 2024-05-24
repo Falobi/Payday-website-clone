@@ -1,0 +1,524 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  background-color: black;
+  height: 3.2rem;
+  text-align: center;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.navbar img {
+  width: 100%;
+  height: 30px;
+}
+.image {
+  position: absolute;
+  left: 12%;
+  top: 0.8rem;
+  background-color: black;
+}
+.link {
+  position: absolute;
+  left: 35%;
+  top: 0.8rem;
+}
+.navbar a {
+  text-decoration: none;
+  padding-right: 0.8rem;
+  color: white;
+}
+.chat {
+  position: absolute;
+  left: 75%;
+  top: 0.8rem;
+}
+
+#header {
+  background-image: url(img/spaceman.png);
+  background-size: 44%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-color: black;
+  height: 43rem;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.2rem;
+  padding-top: 8rem;
+  margin-left: 7rem;
+  color: white;
+}
+
+.note p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  padding-top: 1.8rem;
+  padding-bottom: 4.5rem;
+  margin-left: 7rem;
+  color: white;
+}
+
+.header-cta img {
+  max-width: 28px;
+  height: 28px;
+}
+
+.app p {
+  color: black;
+  font-size: 10px;
+  font-weight: 100;
+  line-height: 0.9rem;
+  padding: 0.3rem;
+  margin-left: 2rem;
+  text-align: left;
+}
+.app span {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.app img {
+  position: absolute;
+  left: 20px;
+  top: 20%;
+}
+
+.app {
+  color: black;
+  border: none;
+  margin-left: 7rem;
+  padding: 0.3rem 1.3rem;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 3rem;
+}
+.app:last-child {
+  margin-left: 1.3rem;
+}
+
+.mouse {
+  position: relative;
+  top: 2.5rem;
+  height: 5rem;
+}
+.click img {
+  max-width: 2rem;
+  height: 3rem;
+}
+
+.click {
+  position: absolute;
+  top: 3.5rem;
+  left: 7.5rem;
+}
+.star {
+  position: absolute;
+  top: 2rem;
+  left: 11rem;
+  border-left: 1px solid #6c757d;
+  padding-left: 1.3rem;
+}
+.star p {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 100;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+.green-line {
+  background-color: #00a856;
+  border-radius: 0.6rem;
+  border: none;
+  height: 0.3rem;
+  width: 3rem;
+  margin-left: 0.6rem;
+}
+.star img {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.star-1 {
+  margin-bottom: 0.6rem;
+}
+.container {
+  max-width: 1300px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+#phone {
+  position: relative;
+  top: 100px;
+  height: 35rem;
+}
+
+.send {
+  position: absolute;
+  left: 5%;
+  max-width: 28%;
+}
+.spend {
+  position: absolute;
+  left: 36%;
+  max-width: 28%;
+}
+
+.bank {
+  position: absolute;
+  left: 67%;
+  max-width: 28%;
+}
+
+#phone h4 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  padding-top: 0.6rem;
+}
+
+#phone p {
+  font-size: 1.3rem;
+  padding-left: 4rem;
+  padding-top: 0.6rem;
+  color: black;
+  font-weight: 100;
+}
+
+#mid-point {
+  background-image: url(img/phones.png);
+  background-position: 95%;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  position: relative;
+  top: 1.3rem;
+  width: 100%;
+  height: 33rem;
+  background-color: #00a856;
+  border-radius: 1.9rem;
+}
+
+.mid-point2 img {
+  max-width: 60px;
+  height: 3.5rem;
+}
+.mid-point2 {
+  padding-top: 1.9rem;
+  margin-left: 7rem;
+}
+.accounts {
+  position: absolute;
+  left: 5%;
+  max-width: 40%;
+  top: 80px;
+}
+
+.accounts h1 {
+  font-weight: 800;
+  font-size: 2rem;
+  padding-top: 3rem;
+  margin-left: 4.5rem;
+  color: white;
+}
+.accounts p {
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  padding-top: 1.9rem;
+  padding-bottom: 4.5rem;
+  margin-left: 4.5rem;
+  color: white;
+}
+
+#mid-point a {
+  background-color: white;
+  border: none;
+  color: black;
+  margin-left: 4.5rem;
+  padding: 0.9rem 1.9rem;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0.6rem;
+}
+
+#card {
+  background-image: url(img/mastercard.gif);
+  background-position: 90%;
+  background-repeat: no-repeat;
+  background-size: 35%;
+  margin-top: 6.2rem;
+  width: 100%;
+  height: 32rem;
+  background-color: black;
+  border-radius: 1.9rem;
+  position: relative;
+}
+.card-logo img {
+  max-width: 4.2rem;
+  height: 4.2rem;
+}
+.card-logo {
+  padding-top: 4.2rem;
+  margin-left: 6.2rem;
+}
+.debit-card {
+  position: absolute;
+  left: 3%;
+  max-width: 40%;
+  top: 4rem;
+}
+.debit-card h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  padding-top: 9rem;
+  margin-left: 4.2rem;
+  color: white;
+}
+.debit-card a {
+  background-color: white;
+  border: none;
+  color: black;
+  margin-left: 4.2rem;
+  padding: 0.9rem 1.9rem;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0.6rem;
+}
+
+#vacation {
+  position: relative;
+  width: 100%;
+  height: 42rem;
+}
+
+.payday {
+  position: absolute;
+  left: 5%;
+  top: 3rem;
+  width: 45%;
+  border: 1px solid #eff1f7;
+  border-radius: 1.9rem;
+  background-color: #eff1f7;
+}
+.paid-2,
+.cash-2 {
+  padding: 20px;
+}
+.spaday {
+  position: absolute;
+  left: 55%;
+  top: 3rem;
+  background-color: #eff1f7;
+  border: 1px solid #eff1f7;
+  border-radius: 1.9rem;
+}
+
+.paid,
+.cash {
+  height: 21rem;
+}
+.paid img,
+.cash img {
+  height: 21rem;
+  width: 100%;
+}
+
+#vacation h2 {
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 40px;
+  color: black;
+  margin-left: 0px;
+}
+#vacation p {
+  font-weight: 100;
+  font-size: 14px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: black;
+}
+#download {
+  background-image: url(img/cta.6541ec9.png);
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+#download img {
+  max-width: 28px;
+  height: 28px;
+}
+
+#download button {
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 50px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+#feature {
+  width: 100%;
+  height: 400px;
+}
+h4 {
+  font-weight: 800;
+  font-size: 34px;
+  padding-top: 50px;
+  text-align: center;
+  color: black;
+}
+#feature img {
+  width: 13%;
+  height: auto;
+  padding: 20px;
+  filter: grayscale(1);
+  transition: all;
+}
+
+#feature img:hover {
+  filter: grayscale(0);
+}
+
+footer {
+  background-color: black;
+}
+footer img {
+  max-width: 8%;
+  height: auto;
+}
+footer p {
+  font-weight: 100;
+  font-size: 20px;
+}
+
+footer h2 {
+  font-weight: 500;
+  font-size: 28px;
+  padding-top: 30px;
+  color: white;
+}
+
+.info ul {
+  list-style: none;
+}
+.info ul li {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 50;
+  position: relative;
+}
+
+footer li a {
+  text-decoration: none;
+  color: white;
+}
+
+.info {
+  position: relative;
+  width: 100%;
+  height: 900px;
+}
+
+.last {
+  position: absolute;
+  left: 10%;
+  top: 60px;
+}
+.last img {
+  width: 100%;
+}
+.last p {
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  margin-left: 0;
+  color: white;
+}
+.info-1 {
+  position: absolute;
+  left: 40%;
+  top: 60px;
+}
+.info-2 {
+  position: absolute;
+  left: 70%;
+  top: 60px;
+}
+.info-2 a {
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.info-3 {
+  position: absolute;
+  left: 70%;
+  top: 200px;
+}
+
+.info-4 {
+  position: absolute;
+  left: 40%;
+  top: 450px;
+}
+.info-4 img {
+  min-width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.info-4 p {
+  font-weight: 100;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  color: white;
+  white-space: nowrap;
+  top: 16px;
+  left: 50px;
+}
+
+.end {
+  border-top: 1px solid #6c757d;
+}
+.end p {
+  font-weight: normal;
+  font-size: 12px;
+  color: #6c757d;
+  padding: 15px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
